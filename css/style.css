@@ -7,7 +7,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  width: 1340px;
+  width: 1300px;
   margin: 0 auto;
 }
 /* common css end */
@@ -57,7 +57,7 @@ body {
 /* main paert start */
 #main-part {
   display: grid;
-  grid-template-columns: repeat(2, 320px 1020px);
+  grid-template-columns: repeat(2, 300px 1000px);
   margin-top: 130px;
   margin-bottom: 130px;
 }
