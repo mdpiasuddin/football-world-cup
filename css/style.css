@@ -25,9 +25,13 @@ a:link {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 24px;
+  transform: 0.4s;
 }
 #header-part .header-text {
   margin-top: 100px;
+}
+#header-part:hover {
+  background-color: #b9b9b9;
 }
 #header-part .header-text h1 {
   color: #ffffff;
@@ -81,6 +85,9 @@ main aside ul li {
   border-radius: 10px;
   margin-bottom: 30px;
   text-align: center;
+}
+main aside ul li:hover {
+  background-color: #dd0000;
 }
 main aside ul li a {
   color: #161616;
