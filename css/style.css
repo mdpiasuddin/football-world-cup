@@ -10,6 +10,10 @@ body {
   width: 1300px;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
+
 /* common css end */
 /* header-paert start */
 #header-part {
@@ -57,9 +61,10 @@ body {
 /* main paert start */
 #main-part {
   display: grid;
-  grid-template-columns: repeat(2, 300px 1000px);
+  grid-template-columns: repeat(2, 330px 970px);
   margin-top: 130px;
   margin-bottom: 130px;
+  position: relative;
 }
 main aside ul {
   background-color: #161616;
@@ -75,6 +80,9 @@ main aside ul li {
   margin-bottom: 30px;
   text-align: center;
 }
+main aside ul li a {
+  color: #161616;
+}
 main aside ul .last {
   margin-bottom: 0;
 }
@@ -82,7 +90,7 @@ main aside ul .last {
   margin-left: 24px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 24px;
+  row-gap: 10px;
   column-gap: 10px;
 }
 .blog .blogs {
@@ -126,6 +134,21 @@ main aside ul .last {
   font-weight: 500;
   margin-left: 10px;
   text-align: center;
+}
+.display {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #dd0000;
+  padding: 16px 25px;
+  border-radius: 5px;
+  width: 8%;
+  position: absolute;
+  bottom: -90px;
+  left: 32%;
+}
+.display {
+  display: none;
 }
 /* main part end */
 /* footer paert start */

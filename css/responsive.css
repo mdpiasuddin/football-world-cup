@@ -1,2 +1,131 @@
-@media (min-width: 320px) and (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 600px) {
+  #header-part {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #header-part .header-text {
+    text-align: center;
+  }
+  #header-part .header-text h1 {
+    font-size: 53px;
+    width: 44%;
+  }
+  #header-part .header-text p {
+    font-size: 16px;
+    width: 44%;
+  }
+  #header-part .header-text a {
+    width: 13%;
+    display: block;
+    margin: 20px 75px;
+  }
+  #header-part .banner img {
+    width: auto;
+    height: auto;
+  }
+  #main-part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main aside ul {
+    background-color: white;
+    padding: 30px;
+  }
+  main aside ul li {
+    width: 20%;
+    border: 1px solid black;
+  }
+  .blog {
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog .blogs {
+    position: relative;
+  }
+  .blog .blogs button {
+    position: absolute;
+    top: 70%;
+    left: 0;
+  }
+  .blog .blogs .pic {
+    margin-bottom: 50px;
+  }
+  .blog .blogs {
+    width: 44%;
+  }
+  .blog h3 {
+    width: 90%;
+  }
+  .blog .three {
+    display: none;
+  }
+  footer h4 {
+    width: 44%;
+  }
+  footer hr {
+    width: 560px;
+    margin: 45px 5px;
+  }
+  .footer-ul {
+    width: 62%;
+  }
+  footer ul {
+    display: block;
+  }
+  footer li {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 601px) and (max-width: 962px) {
+  #header-part .banner img {
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+  }
+  #header-part .header-text {
+    width: 80%;
+  }
+  #header-part .header-text h1 {
+    font-size: 48px;
+  }
+  #main-part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main aside ul {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  main aside ul li {
+    width: 20%;
+    border: 1px solid black;
+  }
+  main aside ul .last {
+    margin-bottom: 30px;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 72%;
+  }
+  .display {
+    display: block;
+  }
+  .three {
+    display: none;
+  }
+  footer h4 {
+    width: 80%;
+  }
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-bottom: 30px;
+  }
 }
