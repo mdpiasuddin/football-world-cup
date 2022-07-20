@@ -13,7 +13,9 @@ body {
 a {
   text-decoration: none;
 }
-
+a:link {
+  color: green;
+}
 /* common css end */
 /* header-paert start */
 #header-part {
@@ -181,3 +183,6 @@ footer li {
   color: #b9b9b9;
 }
 /* foter part end */
+.flag {
+  display: flex;
+}
